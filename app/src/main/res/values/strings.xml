@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CarnetMadridista</string>
+    <string name="btnSolicitaCarnet">Solicita el Carnet</string>
+    <string name="textViewNombre">Nombre</string>
+    <string name="editTextNombre">Nombre</string>
+    <string name="textView1Apellido">1er Apellido</string>
+    <string name="editText1Apellido">1er Apellido</string>
+    <string name="textView2Apellido">2do Apellido</string>
+    <string name="editText2Apellido">2do Apellido</string>
+    <string name="textViewTelefono">Teléfono</string>
+    <string name="editTextTelefono">Teléfono</string>
+    <string name="textViewCorreo">Correo</string>
+    <string name="editTextCorreo">ejemplo@ejemplo.com</string>
+    <string name="textViewConfirmarCorreo">Confirma Correo</string>
+    <string name="editTextConfirmaCorreo">ejemplo@ejemplo.com</string>
+    <string name="textViewSocio">¿Eres socio del Real Madrid?</string>
+    <string name="radioButtonSoySocio">Soy Socio</string>
+    <string name="radioButtonNoSoySocio">No soy Socio</string>
+    <string name="textViewMayor">¿Eres menor de 18 años?</string>
+    <string name="radioButtonMenor">Soy menor</string>
+    <string name="radioButtonMayor">Soy mayor</string>
+    <string name="textViewResidente">¿Resides fuera de España?</string>
+    <string name="radioButtonResidente">Soy residente</string>
+    <string name="radioButtonNoResidente">No soy residente</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="textViewRegistroSocio">Registro Socio</string>
+    <string name="textViewCompuesto">Registro Socio</string>
+    <string name="btnCerrar">Cerrar</string>
+</resources>

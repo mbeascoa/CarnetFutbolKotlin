@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ventana_formulario">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewNombre"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="@string/editTextNombre" />
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/editTextNombre" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1Apellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView1Apellido" />
+
+        <EditText
+            android:id="@+id/editText1Apellido"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/editText1Apellido" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2Apellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView2Apellido" />
+
+        <EditText
+            android:id="@+id/editText2Apellido"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/editText2Apellido" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewTelefono"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewTelefono" />
+
+        <EditText
+            android:id="@+id/editTextTelefono"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="@string/editTextTelefono" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewCorreo"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewCorreo" />
+
+        <EditText
+            android:id="@+id/editTextCorreo"
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewConfirmarCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewConfirmarCorreo" />
+
+        <EditText
+            android:id="@+id/editTextConfirmaCorreo"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewSocio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewSocio" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgSocio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonSoySocio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonSoySocio" />
+
+            <RadioButton
+                android:id="@+id/radioButtonNoSoySocio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonNoSoySocio" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewMayor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewMayor" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgMayor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonMenor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonMenor" />
+
+            <RadioButton
+                android:id="@+id/radioButtonMayor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonMayor" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewResidente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewResidente" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgResidente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonResidente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonResidente" />
+
+            <RadioButton
+                android:id="@+id/radioButtonNoResidente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radioButtonNoResidente" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="irFormulario"
+        android:text="Button" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Hello Madridista</string>
+    <string name="btnSolicitaCarnet">Enroll as a  partner</string>
+    <string name="textViewNombre">Name</string>
+    <string name="editTextNombre">Name</string>
+    <string name="textView1Apellido">First Name</string>
+    <string name="editText1Apellido">First Name</string>
+    <string name="textView2Apellido">Surname</string>
+    <string name="editText2Apellido">Surname</string>
+    <string name="textViewTelefono">Phone Number</string>
+    <string name="editTextTelefono">Phone Number</string>
+    <string name="textViewCorreo">email</string>
+    <string name="editTextCorreo">test@test.com</string>
+    <string name="textViewConfirmarCorreo">Confirm email</string>
+    <string name="editTextConfirmaCorreo">test@test.com</string>
+    <string name="textViewSocio">¿Are you a Real Madrid partner?</string>
+    <string name="radioButtonSoySocio">I´m partner</string>
+    <string name="radioButtonNoSoySocio">I am not a partner</string>
+    <string name="textViewMayor">¿Are you under 18 years old?</string>
+    <string name="radioButtonMenor">I am under 18</string>
+    <string name="radioButtonMayor">I am above 18r</string>
+    <string name="textViewResidente">¿Do you live abroad?</string>
+    <string name="radioButtonResidente">I live in Spain</string>
+    <string name="radioButtonNoResidente">I don´t live in Spain</string>
+    <string name="btnAceptar">Accept</string>
+    <string name="textViewRegistroSocio">Register Information</string>
+    <string name="textViewCompuesto">Registro Socio</string>
+    <string name="btnCerrar">Cerrar</string>
+
+
+</resources>
